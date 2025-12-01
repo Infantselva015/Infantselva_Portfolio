@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Appreciation Emails — Proof of Work</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <link href="../assets/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+  <header>
+    <div class="page">
+      <nav class="nav">
+        <div style="display:flex;align-items:center;gap:12px"><div class="logo-circle">IS</div><div style="display:flex;flex-direction:column"><span style="font-size:14px">Infantselva</span><span style="font-size:12px;color:var(--muted)">DevOps Engineer</span></div></div>
+        <div class="nav-links">
+          <a href="../index.html">Home</a>
+          <a href="index.html">All Proof of Work</a>
+          <a href="metrics.html">Technical Metrics</a>
+          <a href="kudos.html">Kudos & Awards</a>
+          <a href="../index.html#contact" class="nav-primary">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page main">
+    <section>
+      <div class="section-header">
+        <div class="section-title"><div style="width:8px;height:8px;border-radius:50%;background:linear-gradient(to right,var(--accent),#a855f7)"></div><span>Appreciation Emails</span></div>
+        <div class="section-sub">Blurred appreciation & recognition emails from managers and stakeholders.</div>
+      </div>
+
+      <div class="card" style="margin-top:12px">
+        <div class="ach-grid">
+          <figure class="ach-card" data-full="../assets/images/achievements/appreciation-1.jpg" data-caption="Appreciation — on-time release delivery">
+            <img src="../assets/images/achievements/appreciation-1.jpg" alt="appreciation-1">
+            <figcaption class="ach-caption">Appreciation from Sky Italy Director for my SF CLI implementation<small style="display:block;color:var(--muted);margin-top:6px">Sep 2025</small></figcaption>
+          </figure>
+          <figure class="ach-card" data-full="../assets/images/achievements/appreciation-2.jpg" data-caption="Appreciation — release automation">
+            <img src="../assets/images/achievements/appreciation-2.jpg" alt="appreciation-2">
+            <figcaption class="ach-caption">Appreciation from Sky Italy Senior Director for my SF CLI implementation<small style="display:block;color:var(--muted);margin-top:6px">Sep 2025</small></figcaption>
+          </figure>
+          <figure class="ach-card" data-full="../assets/images/achievements/appreciation-3.jpg" data-caption="Appreciation — incident RCA">
+            <img src="../assets/images/achievements/appreciation-3.jpg" alt="appreciation-3">
+            <figcaption class="ach-caption">Appreciation from Manager for my SF CLI implementation<small style="display:block;color:var(--muted);margin-top:6px">Sep 2025</small></figcaption>
+          </figure>
+          <figure class="ach-card" data-full="../assets/images/achievements/appreciation-4.jpg" data-caption="Appreciation — cross-team collaboration">
+            <img src="../assets/images/achievements/appreciation-4.jpg" alt="appreciation-4">
+            <figcaption class="ach-caption">SF CLI implementation & Release<small style="display:block;color:var(--muted);margin-top:6px">Sep 2025</small></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <footer style="margin-top:28px;text-align:center;color:var(--muted);font-size:12px">© <span id="year"></span> Infantselva</footer>
+  </main>
+
+  <div id="lightbox" class="lightbox" role="dialog" aria-hidden="true">
+    <button id="lbClose" class="lightbox-close" aria-label="Close">✕</button>
+    <div style="max-width:90%;text-align:center">
+      <img id="lightboxImg" src="" alt="" style="max-width:100%;max-height:80vh;border-radius:8px"/>
+      <div id="lbCaption" style="color:var(--muted);margin-top:8px;font-size:13px"></div>
+    </div>
+  </div>
+
+  <script src="../assets/js/lightbox.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
